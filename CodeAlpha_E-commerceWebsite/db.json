@@ -1,0 +1,830 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Alex Customer",
+      "email": "user@gmail.com",
+      "phone": "9876543210",
+      "address": "456 Shoppers Avenue, Retail City, NY 10001",
+      "savedAddresses": [
+        "456 Shoppers Avenue, Retail City, NY 10001",
+        "789 Office Tower, Tech Hub, NY 10002"
+      ],
+      "role": "user",
+      "createdDate": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "u2",
+      "name": "System Administrator",
+      "email": "admin@gmail.com",
+      "phone": "1234567890",
+      "address": "123 Admin Lane, Cloud District, CA 94016",
+      "savedAddresses": [
+        "123 Admin Lane, Cloud District, CA 94016"
+      ],
+      "role": "admin",
+      "createdDate": "2026-01-01T00:00:00Z"
+    }
+  ],
+  "passwords": {
+    "u1": "$2b$10$DhvNOd0fiN8j4lliNpIxq.r98pfQ/NebaxC2Qh04rYcnxexu8EkuW",
+    "u2": "$2b$10$zlaimwjFd0Rs3oecg1pmneGdTTozdhfw1JzpZECfcNUNhj0.0KqS."
+  },
+  "products": [
+    {
+      "id": "p1",
+      "name": "AeroSound Pro Wireless Headphones",
+      "description": "Experience deep immersive sound with advanced hybrid Active Noise Cancellation, 40-hour long-lasting battery life, ultra-plush memory foam earcups, and high-fidelity audio drivers engineered for studio-quality acoustics.",
+      "price": 15999,
+      "discount": 15,
+      "category": "Electronics",
+      "stock": 25,
+      "images": [
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.8,
+      "reviews": [
+        {
+          "id": "r1",
+          "userId": "u2",
+          "userName": "Alex Customer",
+          "rating": 5,
+          "comment": "Incredible noise cancellation! The soundstage is wide and crispy clear.",
+          "date": "2026-06-15"
+        },
+        {
+          "id": "r2",
+          "userId": "u3",
+          "userName": "John Doe",
+          "rating": 4.5,
+          "comment": "Super comfortable for long flights. Bass response is highly impressive.",
+          "date": "2026-07-02"
+        }
+      ],
+      "brand": "AeroSound",
+      "specifications": {
+        "Battery Life": "40 Hours",
+        "Bluetooth": "v5.3",
+        "Noise Cancellation": "Hybrid ANC",
+        "Weight": "250g"
+      }
+    },
+    {
+      "id": "p2",
+      "name": "Chronos Smartwatch Elite",
+      "description": "Track your fitness, heart rate, sleep quality, and daily activities with a striking 1.43\" AMOLED display. Features premium stainless steel bezel, built-in dual-band GPS, 5ATM water resistance, and up to 14 days of dynamic battery life.",
+      "price": 19999,
+      "discount": 10,
+      "category": "Electronics",
+      "stock": 18,
+      "images": [
+        "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.6,
+      "reviews": [
+        {
+          "id": "r3",
+          "userId": "u2",
+          "userName": "Alex Customer",
+          "rating": 4,
+          "comment": "Highly precise GPS tracker. The screen brightness is amazing even under bright sunlight.",
+          "date": "2026-06-20"
+        }
+      ],
+      "brand": "Chronos",
+      "specifications": {
+        "Display": "1.43 inch AMOLED",
+        "Water Resistance": "5ATM (50m)",
+        "Battery": "14 Days Typical Use",
+        "Sensors": "PPG Heart Rate, SpO2, Accelerometer"
+      }
+    },
+    {
+      "id": "p3",
+      "name": "Vortex Mechanical Keyboard",
+      "description": "A 75% compact mechanical keyboard engineered with hot-swappable linear mechanical switches, sound-absorbing dampening foam, premium dye-subbed PBT keycaps, and customizable per-key dynamic RGB backlighting.",
+      "price": 10399,
+      "discount": 20,
+      "category": "Electronics",
+      "stock": 30,
+      "images": [
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1595225476474-87563907a212?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.7,
+      "reviews": [
+        {
+          "id": "r4",
+          "userId": "u3",
+          "userName": "John Doe",
+          "rating": 5,
+          "comment": "The sound profiles are marvelous right out of the box. Keycaps feel highly premium.",
+          "date": "2026-07-01"
+        }
+      ],
+      "brand": "Vortex",
+      "specifications": {
+        "Form Factor": "75% Layout",
+        "Switches": "Vortex Yellow Linear",
+        "Connectivity": "USB-C / 2.4G / BT5.0",
+        "Hot-swappable": "Yes, 3/5-pin"
+      }
+    },
+    {
+      "id": "p4",
+      "name": "Titanium Swift Laptop",
+      "description": "Thin, ultra-light aluminum housing equipped with latest-gen 14-core processor, 16GB unified RAM, 512GB PCIe Gen 4 SSD, and a stunning 14-inch 120Hz micro-edge display designed for demanding creators and developers.",
+      "price": 95999,
+      "discount": 5,
+      "category": "Electronics",
+      "stock": 12,
+      "images": [
+        "https://images.unsplash.com/photo-1496181130204-755241544e35?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.9,
+      "reviews": [],
+      "brand": "Titanium",
+      "specifications": {
+        "Processor": "Intel Ultra 7 / AMD Ryzen 7",
+        "RAM": "16GB LPDDR5X",
+        "Storage": "512GB PCIe NVMe SSD",
+        "Weight": "1.28 kg"
+      }
+    },
+    {
+      "id": "p5",
+      "name": "AeroLumen HD Projector",
+      "description": "Turn your living room into a cinematic arena with 2000 ANSI Lumens brightness, native 1080p output (4K supported), smart auto-keystone correction, dual 10W Dolby audio speakers, and seamless Android TV streaming.",
+      "price": 27999,
+      "discount": 15,
+      "category": "Electronics",
+      "stock": 15,
+      "images": [
+        "https://images.unsplash.com/photo-1535016120720-40c646be5580?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "brand": "AeroLumen",
+      "specifications": {
+        "Brightness": "2000 ANSI Lumens",
+        "Resolution": "Native 1080p",
+        "OS": "Android TV 11",
+        "Contrast Ratio": "10,000:1"
+      }
+    },
+    {
+      "id": "p6",
+      "name": "Pulse Go Waterproof Speaker",
+      "description": "IPX7 certified portable Bluetooth speaker offering deep punchy bass, 360-degree expansive sound, up to 15 hours of battery life, and rugged shockproof outer fabrication optimized for beach and poolside adventures.",
+      "price": 6399,
+      "discount": 25,
+      "category": "Electronics",
+      "stock": 45,
+      "images": [
+        "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1529336953128-a85760f58cb5?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "brand": "PulseSound",
+      "specifications": {
+        "Output": "20W RMS",
+        "Waterproofing": "IPX7",
+        "Battery Life": "15 Hours",
+        "Bluetooth": "v5.1"
+      }
+    },
+    {
+      "id": "p7",
+      "name": "Denim Classic Trucker Jacket",
+      "description": "Timeless outerwear style meticulously woven from high-durability heavyweight 100% cotton denim, featuring a relaxed fit, custom button closures, front chest pockets, and side welt pockets for ultimate lifestyle comfort.",
+      "price": 7199,
+      "discount": 10,
+      "category": "Fashion",
+      "stock": 22,
+      "images": [
+        "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1481824429379-07aa5e5b0739?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.5,
+      "reviews": [
+        {
+          "id": "r5",
+          "userId": "u2",
+          "userName": "Alex Customer",
+          "rating": 5,
+          "comment": "Sizing fits exactly as described. Outstanding texture and thickness.",
+          "date": "2026-06-25"
+        }
+      ],
+      "brand": "VibeFashion",
+      "specifications": {
+        "Material": "100% Cotton Denim",
+        "Fit": "Regular Fit",
+        "Style": "Trucker",
+        "Care": "Machine Wash Cold"
+      }
+    },
+    {
+      "id": "p8",
+      "name": "Dynamic Flex Running Shoes",
+      "description": "Engineered performance sneakers equipped with responsive rebound foam midsoles, breathable multi-knit mesh uppers, structural midfoot stability cages, and grip-focused carbon rubber outer treads for all-weather traction.",
+      "price": 11199,
+      "discount": 15,
+      "category": "Fashion",
+      "stock": 20,
+      "images": [
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "brand": "Velocity",
+      "specifications": {
+        "Midsole": "Rebound EVA Foam",
+        "Upper": "Engineered Mesh",
+        "Weight": "280g (Size 9)",
+        "Drop": "8mm"
+      }
+    },
+    {
+      "id": "p9",
+      "name": "Heavyweight Minimalist Hoodie",
+      "description": "An elegant premium casual sweatshirt crafted with a hefty 450 GSM French Terry cotton blend, featuring dropped shoulders, double-layered roomy hoods, and a clean logo-less aesthetic tailored for effortless modern styling.",
+      "price": 5599,
+      "discount": 20,
+      "category": "Fashion",
+      "stock": 35,
+      "images": [
+        "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1519985176271-adb1088fa94c?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "brand": "MinimalLabel",
+      "specifications": {
+        "Material": "80% Cotton, 20% Polyester",
+        "Weight": "450 GSM",
+        "Country": "Portugal",
+        "Cut": "Oversized Boxy"
+      }
+    },
+    {
+      "id": "p10",
+      "name": "Urban Sleek Leather Jacket",
+      "description": "Crafted from ultra-soft, supple genuine lambskin leather that breaks in beautifully over time. Features symmetrical zipper accents, secure interior travel pockets, and lightweight satin lining for comfortable layering.",
+      "price": 23999,
+      "discount": 10,
+      "category": "Fashion",
+      "stock": 14,
+      "images": [
+        "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "brand": "LeatherCraft",
+      "specifications": {
+        "Material": "100% Lambskin Leather",
+        "Lining": "Satin Polyester",
+        "Zipper": "YKK Symmetrical",
+        "Style": "Cafe Racer"
+      }
+    },
+    {
+      "id": "p11",
+      "name": "Polarized Aviator Sunglasses",
+      "description": "Classic lightweight stainless steel frame aviators detailed with scratch-resistant premium TAC polarized lenses that offer 100% UV400 protection, reducing glare and improving eye comfort on bright days.",
+      "price": 3999,
+      "discount": 30,
+      "category": "Fashion",
+      "stock": 40,
+      "images": [
+        "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1577803645773-f96470509666?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.3,
+      "reviews": [],
+      "brand": "AeroSight",
+      "specifications": {
+        "Frame": "Stainless Steel",
+        "Lens": "TAC Polarized",
+        "Protection": "100% UV400",
+        "Gender": "Unisex"
+      }
+    },
+    {
+      "id": "p12",
+      "name": "AeroFit Athletic Tee",
+      "description": "Breathable, moisture-wicking training shirt knitted with micro-perforated lightweight performance polyester, offering 4-way stretch fabric and flatlock non-chafing seams to maximize training performance.",
+      "price": 1999,
+      "discount": 5,
+      "category": "Fashion",
+      "stock": 60,
+      "images": [
+        "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "brand": "Velocity",
+      "specifications": {
+        "Material": "92% Polyester, 8% Elastane",
+        "Fit": "Athletic Slim",
+        "Wicking": "Dry-Fit Tech",
+        "Reflectivity": "Yes"
+      }
+    },
+    {
+      "id": "p13",
+      "name": "Barista Grind Espresso Machine",
+      "description": "Precision Italian pump brewing station offering 15-bar powerful pressure extraction, integrated micro-conical steel burr grinder with 15 settings, professional milk steam wand, and computerized pid temperature control.",
+      "price": 39999,
+      "discount": 10,
+      "category": "Home & Living",
+      "stock": 8,
+      "images": [
+        "https://images.unsplash.com/photo-1517256064527-09c53b2d0bc6?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.9,
+      "reviews": [
+        {
+          "id": "r6",
+          "userId": "u3",
+          "userName": "John Doe",
+          "rating": 5,
+          "comment": "Better than commercial coffee shops! The espresso has perfect rich crema and the steam wand whips up microfoam effortlessly.",
+          "date": "2026-07-05"
+        }
+      ],
+      "brand": "BaristaCo",
+      "specifications": {
+        "Pressure": "15 Bar Italian Pump",
+        "Grinder": "Conical Burr (Stainless)",
+        "Water Reservoir": "2.0L Removable",
+        "Heating": "Thermoblock"
+      }
+    },
+    {
+      "id": "p14",
+      "name": "Lumina Smart Desk Lamp",
+      "description": "Architectural-grade desk lamp offering multiple custom brightness levels, full RGB hue adjustments, built-in fast 15W wireless charging base, and touch-sensitive slider panel with full smart home assistant voice compatibility.",
+      "price": 4799,
+      "discount": 15,
+      "category": "Home & Living",
+      "stock": 25,
+      "images": [
+        "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1534224039826-c7a0dea0e66a?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "brand": "Lumina",
+      "specifications": {
+        "Brightness": "800 Lumens",
+        "Wireless Charging": "15W Qi-Certified",
+        "Connectivity": "WiFi 2.4GHz",
+        "Color Temp": "2700K - 6500K"
+      }
+    },
+    {
+      "id": "p15",
+      "name": "ErgoComfort Office Chair",
+      "description": "An ergonomic office chair featuring highly breathable elastic mesh backing, self-adjusting dynamic lumbar tracking, 3D multi-directional adjustable armrests, and 135-degree smooth recline with secure lock controls.",
+      "price": 22399,
+      "discount": 15,
+      "category": "Home & Living",
+      "stock": 12,
+      "images": [
+        "https://images.unsplash.com/photo-1505797149-43b0069ec26b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1580481072645-022f9a6dbf27?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "brand": "ErgoHome",
+      "specifications": {
+        "Frame Material": "Nylon & Steel",
+        "Weight Capacity": "150 kg",
+        "Mesh Type": "Korean Elastomer",
+        "Piston": "Class 4 Gas Lift"
+      }
+    },
+    {
+      "id": "p16",
+      "name": "PureAir True HEPA Purifier",
+      "description": "H13 medical-grade True HEPA filtration system capturing 99.97% of airborne dust, pollen, pet dander, mold, smoke, and odors. Ideal for bedrooms or home offices, purging spaces up to 500 sq ft within 15 minutes.",
+      "price": 9599,
+      "discount": 20,
+      "category": "Home & Living",
+      "stock": 16,
+      "images": [
+        "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1501183007986-d0d080b147f9?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "brand": "PureAir",
+      "specifications": {
+        "Filter Grade": "H13 HEPA",
+        "CADR": "250 m³/h",
+        "Coverage": "Up to 500 sq ft",
+        "Noise Level": "22dB - 48dB"
+      }
+    },
+    {
+      "id": "p17",
+      "name": "Handcrafted Ceramic Mug Set",
+      "description": "A set of 4 minimalist, textured stoneware mugs hand-glazed in natural organic earthy neutral tones, each unique and designed with ergonomic wide-loop handles to elevate your morning coffee ritual.",
+      "price": 2799,
+      "discount": 10,
+      "category": "Home & Living",
+      "stock": 30,
+      "images": [
+        "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "brand": "EarthyClay",
+      "specifications": {
+        "Quantity": "Set of 4 Mugs",
+        "Capacity": "350ml / 12oz",
+        "Material": "Stoneware Ceramic",
+        "Safety": "Microwave & Dishwasher Safe"
+      }
+    },
+    {
+      "id": "p18",
+      "name": "Nordic Soy Scented Candle",
+      "description": "Eco-friendly hand-poured natural soy wax candle infused with high-end premium essential oils of Sandalwood, Amber, and Vetiver. Features a wood wick that cracks softly like a real fire, burning for 60 peaceful hours.",
+      "price": 1849,
+      "discount": 0,
+      "category": "Home & Living",
+      "stock": 50,
+      "images": [
+        "https://images.unsplash.com/photo-1603006905003-be475563bc59?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1508746829417-e6f548d8d6ed?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "brand": "NordicScents",
+      "specifications": {
+        "Wax": "100% Organic Soy Wax",
+        "Wick": "Natural Maple Wood Wick",
+        "Burn Time": "60 Hours",
+        "Weight": "8.5 oz / 240g"
+      }
+    },
+    {
+      "id": "p19",
+      "name": "ZenFlex Non-Slip Yoga Mat",
+      "description": "Eco-friendly TPE foam formulation offering dense joint cushioning, customized laser-etched anatomical alignment lines, dual-sided non-slip grip, and lightweight travel carry strap.",
+      "price": 3599,
+      "discount": 10,
+      "category": "Fitness & Wellness",
+      "stock": 25,
+      "images": [
+        "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "brand": "ZenFlex",
+      "specifications": {
+        "Material": "Eco TPE (Latex Free)",
+        "Dimensions": "183cm x 61cm",
+        "Thickness": "6mm",
+        "Weight": "900g"
+      }
+    },
+    {
+      "id": "p20",
+      "name": "Smart Hydrate Water Bottle",
+      "description": "Double-walled insulated stainless steel bottle with a built-in UV-C sterilization cap that purifies drinking water and neutralizes bacteria every 2 hours, keeping beverages ice cold for 24 hours or hot for 12 hours.",
+      "price": 5199,
+      "discount": 15,
+      "category": "Fitness & Wellness",
+      "stock": 20,
+      "images": [
+        "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1523362628745-0c100150b504?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1594541785566-f49c565da2c0?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "brand": "PureFlow",
+      "specifications": {
+        "Capacity": "600ml / 20oz",
+        "Material": "18/8 Food-Grade Stainless Steel",
+        "Sterilization": "UV-C LED",
+        "Charge": "Magnetic USB (lasts 1 month)"
+      }
+    },
+    {
+      "id": "p21",
+      "name": "DeepPulse Massage Gun",
+      "description": "Professional-grade percussion therapy massager powered by a whisper-quiet high-torque brushless motor. Delivers up to 3200 percussions per minute, featuring 30 speed levels and 6 customized interchangeable massage heads.",
+      "price": 9599,
+      "discount": 25,
+      "category": "Fitness & Wellness",
+      "stock": 14,
+      "images": [
+        "https://images.unsplash.com/photo-1614913759325-a131b78ee294?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "brand": "DeepPulse",
+      "specifications": {
+        "Motor": "24V Brushless (Max 3200 RPM)",
+        "Speeds": "30 Variable Settings",
+        "Battery": "Rechargeable Lithium (6 Hours)",
+        "Noise": "Less than 45dB"
+      }
+    },
+    {
+      "id": "p22",
+      "name": "IronCore Select Bell Dumbbells",
+      "description": "Heavy-duty space-saving selector dumbbells adjustable from 5 lbs up to 52.5 lbs with a simple smooth rotating dial. Coated in durable thermo-plastic rubber to prevent scraping noise and floor damage.",
+      "price": 19999,
+      "discount": 10,
+      "category": "Fitness & Wellness",
+      "stock": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "brand": "IronCore",
+      "specifications": {
+        "Weight Range": "5 to 52.5 lbs (2.3 to 24 kg)",
+        "Settings": "15 Increment Adjustments",
+        "Material": "Powder-coated Steel",
+        "Tray": "Included"
+      }
+    },
+    {
+      "id": "p23",
+      "name": "AuraMist Essential Oil Diffuser",
+      "description": "Whisper-quiet ultrasonic oil diffuser designed with a striking real solid wood casing and hand-glazed ceramic top. Features warm ambient glow candle-light LEDs, continuous or intermittent misting, and auto shut-off.",
+      "price": 3199,
+      "discount": 15,
+      "category": "Fitness & Wellness",
+      "stock": 22,
+      "images": [
+        "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1602928321679-560bb453f190?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "brand": "AuraMist",
+      "specifications": {
+        "Capacity": "200ml",
+        "Material": "Solid Oak & Ceramic",
+        "Runtime": "8 Hours Intermittent",
+        "LED Colors": "7 Warm Shades"
+      }
+    },
+    {
+      "id": "p24",
+      "name": "Minimalist Carbon Cardholder",
+      "description": "Sleek, pocket-friendly minimalist wallet constructed from aerospace-grade rigid carbon fiber weave and aluminum core, holding up to 12 cards with integrated spring RFID blocking and stainless steel cash strap.",
+      "price": 3999,
+      "discount": 20,
+      "category": "Accessories",
+      "stock": 40,
+      "images": [
+        "https://images.unsplash.com/photo-1627124118123-275197004cc4?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1588444839799-eb6cd27e3e26?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1598343175492-9e7dc0e63cc6?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "brand": "CarbonGear",
+      "specifications": {
+        "Material": "Carbon Fiber & Aerospace Aluminum",
+        "Capacity": "1 - 12 Cards",
+        "RFID Blocking": "Yes, Certified",
+        "Weight": "55g"
+      }
+    },
+    {
+      "id": "p25",
+      "name": "Voyager Leather Travel Backpack",
+      "description": "Premium full-grain heritage leather backpack designed with structured laptop sleeve for up to 16 inches, expandable main packing capacity, quick-access passport slots, and ventilated ergonomic mesh shoulder padding.",
+      "price": 15199,
+      "discount": 10,
+      "category": "Accessories",
+      "stock": 12,
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1547949003-9792a18a2601?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.9,
+      "reviews": [],
+      "brand": "Voyager",
+      "specifications": {
+        "Material": "Full-Grain Cowhide Leather",
+        "Laptop Sleeve": "Up to 16 inch Mac/PC",
+        "Capacity": "25 Liters",
+        "Dimensions": "45cm x 30cm x 15cm"
+      }
+    },
+    {
+      "id": "p26",
+      "name": "Metro Canvas Duffel Bag",
+      "description": "Crafted from high-density, water-resistant waxed cotton canvas and details of genuine oil-tanned leather. Perfect weekend escape travel bag designed with separate wet/dry shoes compartment.",
+      "price": 6399,
+      "discount": 15,
+      "category": "Accessories",
+      "stock": 18,
+      "images": [
+        "https://images.unsplash.com/photo-1544816155-12df9643f363?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1524498250077-3a058b35480d?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "brand": "Voyager",
+      "specifications": {
+        "Material": "Waxed Canvas & Crazy Horse Leather",
+        "Capacity": "40 Liters",
+        "Compartments": "Shoe pocket + 5 interior pockets",
+        "Strap": "Removable adjustable cotton web shoulder strap"
+      }
+    },
+    {
+      "id": "p27",
+      "name": "Sleek Protection Laptop Sleeve",
+      "description": "Minimalist water-repellent felt sleeve lined with heavy-density cushion padding, integrated auxiliary magnetic closure, and back pockets designed for power chargers, notebooks, and tablet styluses.",
+      "price": 2399,
+      "discount": 10,
+      "category": "Accessories",
+      "stock": 30,
+      "images": [
+        "https://images.unsplash.com/photo-1541140111813-8222e9d90981?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "brand": "MinimalLabel",
+      "specifications": {
+        "Material": "Eco-Friendly Merino Wool Felt",
+        "Fit": "MacBook Pro/Air 13-14 inch",
+        "Locking": "Invisible Magnet Flap",
+        "Lining": "Scratch-free Microfiber"
+      }
+    },
+    {
+      "id": "p28",
+      "name": "StormBreaker Travel Umbrella",
+      "description": "Ultra-durable travel umbrella constructed with high-flex 9-rib fiberglass frame, Teflon double-canopy waterproof weave, comfortable ergonomic slip-resistant rubber handle, and automatic fast open/close action button.",
+      "price": 1999,
+      "discount": 20,
+      "category": "Accessories",
+      "stock": 50,
+      "images": [
+        "https://images.unsplash.com/photo-1502444330042-d1a1ddf9bb5c?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "brand": "AeroSight",
+      "specifications": {
+        "Canopy Weave": "210T Dupont Teflon Polyester",
+        "Rib Count": "9 High-Tensile Fiberglass Ribs",
+        "Windproof Rating": "Up to 60 MPH gusts",
+        "Folding Length": "12 inches"
+      }
+    },
+    {
+      "id": "p29",
+      "name": "Organic Glow Skincare Kit",
+      "description": "A 3-step plant-powered organic daily skincare regimen designed to purify, tone, and lock in deep cellular moisture. Includes Gentle Hydrating Cleanser, Rosewater Refresh Toner, and Vitamin C Brightening Serum.",
+      "price": 3899,
+      "discount": 15,
+      "category": "Beauty & Wellness",
+      "stock": 25,
+      "images": [
+        "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "brand": "OrganicGlow",
+      "specifications": {
+        "Cleanser": "150ml Hydrating Oat Cleanser",
+        "Toner": "100ml Pure Rosewater Mist",
+        "Serum": "30ml Vitamin C Elixir",
+        "Skin Type": "All Skin Types (Sensitive Approved)"
+      }
+    },
+    {
+      "id": "p30",
+      "name": "AeroSalon Professional Hair Dryer",
+      "description": "An advanced salon-grade ionic hair dryer utilizing a robust 1875W AC motor. Features smart continuous ceramic tourmaline heat distribution, dual speed, three custom temperature click switches, and styling concentrator nozzles.",
+      "price": 7199,
+      "discount": 10,
+      "category": "Beauty & Wellness",
+      "stock": 15,
+      "images": [
+        "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "brand": "AeroSound",
+      "specifications": {
+        "Motor Power": "1875 Watts AC",
+        "Tech": "Negative Ion Conditioning",
+        "Speeds/Heats": "2 Speed / 3 Temperature levels",
+        "Cord Length": "2.7m Salon Cord"
+      }
+    },
+    {
+      "id": "p31",
+      "name": "Jade Facial Massage roller",
+      "description": "Authentic 100% natural Grade-A green jade stone roller and Gua Sha scraping tool designed to improve facial circulation, drain lymphatic fluid, soothe muscle puffiness, and smooth fine lines.",
+      "price": 1599,
+      "discount": 5,
+      "category": "Beauty & Wellness",
+      "stock": 35,
+      "images": [
+        "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600&auto=format&fit=crop"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "brand": "OrganicGlow",
+      "specifications": {
+        "Stone": "100% Certified Brazilian Jade",
+        "Tools": "Dual-Sided Roller + Gua Sha Scraper",
+        "Fittings": "Noise-Free Silicon Cap Insertures",
+        "Storage": "Magnetic luxury box"
+      }
+    }
+  ],
+  "orders": [],
+  "coupons": [
+    {
+      "code": "SAVE10",
+      "discountPercent": 10,
+      "minSpend": 3999,
+      "description": "Get 10% off on orders above ₹3,999"
+    },
+    {
+      "code": "WELCOME20",
+      "discountPercent": 20,
+      "minSpend": 7999,
+      "description": "Get 20% off on orders above ₹7,999 for your warm welcome"
+    },
+    {
+      "code": "FREESHIP",
+      "discountPercent": 0,
+      "minSpend": 1999,
+      "description": "Free shipping on orders above ₹1,999"
+    },
+    {
+      "code": "SUPER30",
+      "discountPercent": 30,
+      "minSpend": 14999,
+      "description": "Unlock 30% off on orders above ₹14,999"
+    }
+  ],
+  "carts": {},
+  "wishlists": {}
+}

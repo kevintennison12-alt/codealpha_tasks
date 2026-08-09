@@ -1,0 +1,6 @@
+{
+  "name": "Modern E-Commerce Platform",
+  "description": "A premium full-stack e-commerce store with user authentication, custom search, product details, interactive cart, orders, wishlist, and an administrative dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
