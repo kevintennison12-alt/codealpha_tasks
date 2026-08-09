@@ -1,0 +1,6 @@
+{
+  "name": "Project Management Tool",
+  "description": "A collaborative full-stack project management platform with Kanban boards, interactive analytics, and granular user roles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

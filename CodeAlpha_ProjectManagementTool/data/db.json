@@ -1,0 +1,570 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "email": "admin@company.com",
+      "name": "Kevin",
+      "role": "Admin",
+      "avatar": "K",
+      "bio": "Platform administrator and organization owner.",
+      "skills": [
+        "Governance",
+        "Systems",
+        "Strategic Planning"
+      ]
+    },
+    {
+      "id": "u2",
+      "email": "pm@company.com",
+      "name": "John Manager",
+      "role": "Project Manager",
+      "avatar": "JM",
+      "bio": "Experienced project manager. Specializes in Scrum & agile delivery.",
+      "skills": [
+        "Agile",
+        "Scrum",
+        "Risk Management",
+        "Budgets"
+      ]
+    },
+    {
+      "id": "u3",
+      "email": "dev@company.com",
+      "name": "Alex Developer",
+      "role": "Team Member",
+      "avatar": "AD",
+      "bio": "Full stack software engineer passionate about beautiful frontends.",
+      "skills": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Tailwind"
+      ]
+    },
+    {
+      "id": "u4",
+      "email": "designer@company.com",
+      "name": "Emma Designer",
+      "role": "Team Member",
+      "avatar": "ED",
+      "bio": "Product & UX/UI Designer focusing on project management workflows.",
+      "skills": [
+        "Figma",
+        "UI Design",
+        "Wireframing",
+        "Prototyping"
+      ]
+    },
+    {
+      "id": "u-1783785112581-708",
+      "email": "dev1@company.com",
+      "name": "Alex Dev",
+      "role": "Team Member",
+      "avatar": "AD"
+    }
+  ],
+  "passwords": {
+    "u1": "password123",
+    "u2": "password123",
+    "u3": "password123",
+    "u4": "password123",
+    "u-1783785112581-708": "alex@123"
+  },
+  "projects": [
+    {
+      "id": "p1",
+      "name": "Alpha Software Release",
+      "description": "Main release cycle for the upcoming v1.0 of our flagship project management platform, including Kanban updates, UI refresh, and offline capabilities.",
+      "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+      "startDate": "2026-07-01",
+      "endDate": "2026-08-15",
+      "priority": "High",
+      "status": "Active",
+      "members": [
+        "u1",
+        "u2",
+        "u3",
+        "u4"
+      ],
+      "managerId": "u2",
+      "createdAt": "2026-07-01T08:00:00Z"
+    },
+    {
+      "id": "p2",
+      "name": "Enterprise Marketing Site Redesign",
+      "description": "Rebuild of our public website to drive higher conversions, showcase our new interactive dashboard, and integrate a comprehensive support helpdesk.",
+      "coverImage": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80",
+      "startDate": "2026-07-10",
+      "endDate": "2026-09-01",
+      "priority": "Medium",
+      "status": "Active",
+      "members": [
+        "u2",
+        "u4"
+      ],
+      "managerId": "u2",
+      "createdAt": "2026-07-10T10:00:00Z"
+    },
+    {
+      "id": "p3",
+      "name": "Mobile App Wireframing & Prototype",
+      "description": "Initial design phases for our iOS and Android mobile applet, including interactive Figma mocks and stakeholder review workshops.",
+      "coverImage": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80",
+      "startDate": "2026-06-01",
+      "endDate": "2026-07-05",
+      "priority": "Critical",
+      "status": "Completed",
+      "members": [
+        "u2",
+        "u3",
+        "u4"
+      ],
+      "managerId": "u2",
+      "createdAt": "2026-06-01T09:00:00Z"
+    }
+  ],
+  "boards": [
+    {
+      "id": "b1",
+      "projectId": "p1",
+      "name": "Backlog",
+      "order": 0
+    },
+    {
+      "id": "b2",
+      "projectId": "p1",
+      "name": "To Do",
+      "order": 1
+    },
+    {
+      "id": "b3",
+      "projectId": "p1",
+      "name": "In Progress",
+      "order": 2
+    },
+    {
+      "id": "b4",
+      "projectId": "p1",
+      "name": "Review",
+      "order": 3
+    },
+    {
+      "id": "b5",
+      "projectId": "p1",
+      "name": "Testing",
+      "order": 4
+    },
+    {
+      "id": "b6",
+      "projectId": "p1",
+      "name": "Completed",
+      "order": 5
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "boardId": "b1",
+      "projectId": "p1",
+      "title": "Integrate WebSockets for Real-time chat",
+      "description": "Design the backend channel system to relay live chat messages to team members within a project room.",
+      "priority": "Medium",
+      "dueDate": "2026-08-05",
+      "assignedUserId": "u3",
+      "labels": [
+        "Backend",
+        "Sockets"
+      ],
+      "status": "Todo",
+      "progressBar": 0,
+      "order": 0,
+      "createdAt": "2026-07-02T12:00:00Z"
+    },
+    {
+      "id": "t2",
+      "boardId": "b2",
+      "projectId": "p1",
+      "title": "Create light/dark theme CSS variables",
+      "description": "Implement Tailwind-based dark/light theme options inside index.css and a clean state toggle button in header.",
+      "priority": "Low",
+      "dueDate": "2026-07-20",
+      "assignedUserId": "u4",
+      "labels": [
+        "UI/UX",
+        "CSS"
+      ],
+      "status": "Todo",
+      "progressBar": 100,
+      "order": 0,
+      "createdAt": "2026-07-02T13:00:00Z"
+    },
+    {
+      "id": "t3",
+      "boardId": "b2",
+      "projectId": "p1",
+      "title": "Database connection optimization",
+      "description": "Audit the data indexing and table structures to ensure rapid response times under load.",
+      "priority": "High",
+      "dueDate": "2026-07-15",
+      "assignedUserId": "u3",
+      "labels": [
+        "Database",
+        "Performance"
+      ],
+      "status": "Todo",
+      "progressBar": 50,
+      "order": 1,
+      "createdAt": "2026-07-03T09:00:00Z"
+    },
+    {
+      "id": "t4",
+      "boardId": "b3",
+      "projectId": "p1",
+      "title": "Implement Interactive Kanban Drag & Drop UI",
+      "description": "Build robust Kanban boards where users can seamlessly drag task cards across status lanes with instant state syncing to the server database.",
+      "priority": "Critical",
+      "dueDate": "2026-07-18",
+      "assignedUserId": "u3",
+      "labels": [
+        "Frontend",
+        "DND"
+      ],
+      "status": "In Progress",
+      "progressBar": 40,
+      "order": 0,
+      "createdAt": "2026-07-03T10:00:00Z"
+    },
+    {
+      "id": "t5",
+      "boardId": "b4",
+      "projectId": "p1",
+      "title": "Review Project Management PDF Report Export",
+      "description": "Verify report calculations for completed/pending tasks and render an elegant print view that prints/saves cleanly to PDF.",
+      "priority": "Medium",
+      "dueDate": "2026-07-12",
+      "assignedUserId": "u2",
+      "labels": [
+        "Reporting",
+        "Export"
+      ],
+      "status": "Review",
+      "progressBar": 75,
+      "order": 0,
+      "createdAt": "2026-07-04T11:00:00Z"
+    },
+    {
+      "id": "t6",
+      "boardId": "b5",
+      "projectId": "p1",
+      "title": "QA testing for authentication authorization",
+      "description": "Test session-based login and API route access protections to guarantee only Admins can manage core user settings.",
+      "priority": "High",
+      "dueDate": "2026-07-10",
+      "assignedUserId": "u3",
+      "labels": [
+        "Security",
+        "QA"
+      ],
+      "status": "Testing",
+      "progressBar": 66,
+      "order": 0,
+      "createdAt": "2026-07-04T15:00:00Z"
+    },
+    {
+      "id": "t7",
+      "boardId": "b6",
+      "projectId": "p1",
+      "title": "User roles specification documentation",
+      "description": "Document system capabilities and permissions map for Admins, PMs, and Team Members.",
+      "priority": "Low",
+      "dueDate": "2026-07-05",
+      "assignedUserId": "u2",
+      "labels": [
+        "Docs"
+      ],
+      "status": "Completed",
+      "progressBar": 100,
+      "order": 0,
+      "createdAt": "2026-07-01T10:00:00Z"
+    }
+  ],
+  "subtasks": [
+    {
+      "id": "s1",
+      "taskId": "t3",
+      "title": "Measure query latency",
+      "completed": true
+    },
+    {
+      "id": "s2",
+      "taskId": "t3",
+      "title": "Add indexes to columns",
+      "completed": false
+    },
+    {
+      "id": "s3",
+      "taskId": "t4",
+      "title": "Install motion/react library",
+      "completed": true
+    },
+    {
+      "id": "s4",
+      "taskId": "t4",
+      "title": "Construct task card components",
+      "completed": true
+    },
+    {
+      "id": "s5",
+      "taskId": "t4",
+      "title": "Implement drag event handlers",
+      "completed": false
+    },
+    {
+      "id": "s6",
+      "taskId": "t4",
+      "title": "Optimize layouts for mobile devices",
+      "completed": false
+    },
+    {
+      "id": "s7",
+      "taskId": "t4",
+      "title": "Sync with backend DB",
+      "completed": false
+    },
+    {
+      "id": "s8",
+      "taskId": "t5",
+      "title": "Format table metrics",
+      "completed": true
+    },
+    {
+      "id": "s9",
+      "taskId": "t5",
+      "title": "Add team velocity chart layout",
+      "completed": true
+    },
+    {
+      "id": "s10",
+      "taskId": "t5",
+      "title": "Design beautiful print stylesheet",
+      "completed": true
+    },
+    {
+      "id": "s11",
+      "taskId": "t5",
+      "title": "Implement CSV export structure",
+      "completed": false
+    },
+    {
+      "id": "s12",
+      "taskId": "t6",
+      "title": "Verify Admin role restrictions",
+      "completed": true
+    },
+    {
+      "id": "s13",
+      "taskId": "t6",
+      "title": "Verify Project Manager role restrictions",
+      "completed": true
+    },
+    {
+      "id": "s14",
+      "taskId": "t6",
+      "title": "Check cross-site request token logic",
+      "completed": false
+    }
+  ],
+  "comments": [
+    {
+      "id": "c1",
+      "taskId": "t4",
+      "userId": "u2",
+      "userName": "John Manager",
+      "userAvatar": "JM",
+      "text": "Alex, the layout looks extremely clean! Let's make sure card transitions are super smooth.",
+      "createdAt": "2026-07-08T09:30:00Z"
+    },
+    {
+      "id": "c2",
+      "taskId": "t4",
+      "userId": "u3",
+      "userName": "Alex Developer",
+      "userAvatar": "AD",
+      "text": "Absolutely, John. I'm using motion animations for card hovering and dragging. It feels incredible.",
+      "createdAt": "2026-07-08T10:15:00Z",
+      "parentId": "c1"
+    },
+    {
+      "id": "c3",
+      "taskId": "t6",
+      "userId": "u1",
+      "userName": "Kevin",
+      "userAvatar": "K",
+      "text": "Security is critical for our launch. Please double-check password salting or verify hash comparisons.",
+      "createdAt": "2026-07-09T14:22:00Z"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "a1",
+      "taskId": "t5",
+      "projectId": "p1",
+      "fileName": "reporting_spec_draft.pdf",
+      "filePath": "/api/attachments/download/seed-reporting_spec_draft.pdf",
+      "fileType": "application/pdf",
+      "fileSize": 350208,
+      "uploadedBy": "u2",
+      "uploadedByName": "John Manager",
+      "createdAt": "2026-07-05T09:00:00Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n1",
+      "userId": "u3",
+      "title": "New Task Assigned",
+      "message": "John Manager assigned you \"Integrate WebSockets for Real-time chat\".",
+      "type": "task_assigned",
+      "read": false,
+      "createdAt": "2026-07-10T08:30:00Z"
+    },
+    {
+      "id": "n2",
+      "userId": "u3",
+      "title": "Comment Received",
+      "message": "John Manager commented on \"Implement Interactive Kanban Drag & Drop UI\".",
+      "type": "comment_added",
+      "read": true,
+      "createdAt": "2026-07-08T09:31:00Z"
+    },
+    {
+      "id": "n3",
+      "userId": "u1",
+      "title": "System Security Audit",
+      "message": "Audit report is ready for download in your dashboard.",
+      "type": "task_completed",
+      "read": false,
+      "createdAt": "2026-07-11T07:15:00Z"
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": "al-1783873339381-604",
+      "userId": "u1",
+      "userName": "Kevin",
+      "action": "Logged in",
+      "createdAt": "2026-07-12T16:22:19.381Z"
+    },
+    {
+      "id": "al-1783873228994-822",
+      "userId": "u1",
+      "userName": "Kevin",
+      "action": "Logged in",
+      "createdAt": "2026-07-12T16:20:28.994Z"
+    },
+    {
+      "id": "al-1783785694620-996",
+      "userId": "u2",
+      "userName": "John Manager",
+      "action": "Logged in",
+      "createdAt": "2026-07-11T16:01:34.620Z"
+    },
+    {
+      "id": "al-1783785620987-619",
+      "userId": "u1",
+      "userName": "Kevin",
+      "action": "Logged in",
+      "createdAt": "2026-07-11T16:00:20.987Z"
+    },
+    {
+      "id": "al-1783785112581-15",
+      "userId": "u-1783785112581-708",
+      "userName": "Alex Dev",
+      "action": "Registered new user account",
+      "createdAt": "2026-07-11T15:51:52.581Z"
+    },
+    {
+      "id": "al-1783785060843-514",
+      "userId": "u1",
+      "userName": "Kevin",
+      "action": "Logged in",
+      "createdAt": "2026-07-11T15:51:00.843Z"
+    },
+    {
+      "id": "al1",
+      "userId": "u1",
+      "userName": "Kevin",
+      "action": "Logged in",
+      "createdAt": "2026-07-11T08:00:00Z"
+    },
+    {
+      "id": "al2",
+      "userId": "u2",
+      "userName": "John Manager",
+      "action": "Created project \"Alpha Software Release\"",
+      "projectId": "p1",
+      "projectName": "Alpha Software Release",
+      "createdAt": "2026-07-01T08:00:00Z"
+    },
+    {
+      "id": "al3",
+      "userId": "u2",
+      "userName": "John Manager",
+      "action": "Created task \"Implement Interactive Kanban Drag & Drop UI\"",
+      "projectId": "p1",
+      "projectName": "Alpha Software Release",
+      "taskId": "t4",
+      "taskTitle": "Implement Interactive Kanban Drag & Drop UI",
+      "createdAt": "2026-07-03T10:00:00Z"
+    },
+    {
+      "id": "al4",
+      "userId": "u3",
+      "userName": "Alex Developer",
+      "action": "Updated task progress to 40% on \"Implement Interactive Kanban Drag & Drop UI\"",
+      "projectId": "p1",
+      "projectName": "Alpha Software Release",
+      "taskId": "t4",
+      "taskTitle": "Implement Interactive Kanban Drag & Drop UI",
+      "createdAt": "2026-07-08T10:15:00Z"
+    }
+  ],
+  "chatMessages": [
+    {
+      "id": "ch1",
+      "projectId": "global",
+      "userId": "u1",
+      "userName": "Kevin",
+      "userAvatar": "K",
+      "text": "Welcome team to the global project collaboration workspace!",
+      "createdAt": "2026-07-11T08:01:00Z"
+    },
+    {
+      "id": "ch2",
+      "projectId": "global",
+      "userId": "u2",
+      "userName": "John Manager",
+      "userAvatar": "JM",
+      "text": "Good morning Kevin! Excited to dive into the Alpha tasks today.",
+      "createdAt": "2026-07-11T08:05:00Z"
+    },
+    {
+      "id": "ch3",
+      "projectId": "p1",
+      "userId": "u3",
+      "userName": "Alex Developer",
+      "userAvatar": "AD",
+      "text": "Hey guys, I am actively working on the Kanban boards right now. Let me know if you want a live walkthrough!",
+      "createdAt": "2026-07-11T08:12:00Z"
+    },
+    {
+      "id": "ch-1783785721628",
+      "projectId": "global",
+      "userId": "u2",
+      "userName": "John Manager",
+      "userAvatar": "JM",
+      "text": "yes",
+      "createdAt": "2026-07-11T16:02:01.628Z"
+    }
+  ]
+}
