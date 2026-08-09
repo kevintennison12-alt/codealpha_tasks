@@ -1,0 +1,6 @@
+{
+  "name": "SocialLink",
+  "description": "An elegant Instagram-like social media application with custom-tailored Indian feed channels (IPL Cricket, Bollywood, Fintech, UPI, politics), real-time India Today news flashes, and localized social features for Kevin.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
